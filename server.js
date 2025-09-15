@@ -102,7 +102,7 @@ process.on("SIGTERM", shutdown);
 // Configure the port from environment variables or default to 8080
 let port = parseInt(process.env.PORT || "");
 if (isNaN(port)) {
-    port = 8080;
+    port = 3000;
 }
 
 // Start the server, listening on all network interfaces
